@@ -14,3 +14,5 @@ const useImage = (url) => {
 };
 
 app.config.globalProperties.$image = useImage;
+
+export default app;
